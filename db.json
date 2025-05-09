@@ -1,0 +1,138 @@
+{
+  "books": [
+    {
+      "_id": "67d8193b56147765fd51428a",
+      "title": "The Monk Who Sold His Ferrari",
+      "author": "Robin Sharma",
+      "genre": [
+        "Self-Help"
+      ],
+      "publicationYear": "1998",
+      "description": "A fable about achieving purpose, peace, and success in life.",
+      "coverImage": "https://m.media-amazon.com/images/I/61OByUf1TfL.jpg"
+    },
+    {
+      "_id": "67d8193b56147765fd51428b",
+      "title": "You Can Win",
+      "author": "Shiv Khera",
+      "genre": [
+        "Self-Help, Motivation"
+      ],
+      "publicationYear": 1998,
+      "description": "A book that helps you build a positive attitude and achieve success.",
+      "coverImage": "https://m.media-amazon.com/images/I/71KCBR2XkhL.jpg"
+    },
+    {
+      "_id": "67d8193b56147765fd51428d",
+      "title": "The 5 AM Club",
+      "author": "Robin Sharma",
+      "genre": [
+        "Self-Help, Productivity"
+      ],
+      "publicationYear": 2018,
+      "description": "A book on how waking up early can transform your life and productivity.",
+      "coverImage": "https://m.media-amazon.com/images/I/712VrOZ60zL.jpg"
+    },
+    {
+      "_id": "67d8193b56147765fd514289",
+      "title": "Wings of Fire",
+      "author": "Dr. A.P.J. Abdul Kalam",
+      "genre": [
+        "Biography"
+      ],
+      "publicationYear": 1999,
+      "description": "An inspiring autobiography of India's Missile Man and former President.",
+      "coverImage": "https://www.indicinspirations.com/cdn/shop/products/wings-of-fire-an-autobiography-of-abdul-kalam-books-908170.jpg?v=1627154447&width=565",
+      "updatedAt": "2025-03-18T15:40:42.962Z"
+    },
+    {
+      "_id": "67d8193b56147765fd51428c",
+      "title": "Life’s Amazing Secrets",
+      "author": "Gaur Gopal Das",
+      "genre": [
+        "Self-Help, Spirituality"
+      ],
+      "publicationYear": 2018,
+      "description": "A guide to balancing work, relationships, and inner peace.",
+      "coverImage": "https://m.media-amazon.com/images/I/81yxRLBMmkL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "_id": "67d94d7ad7d2e9d421786780",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": [
+        "Self-Help"
+      ],
+      "publicationYear": 2018,
+      "description": "A book about building good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results.",
+      "coverImage": "https://m.media-amazon.com/images/I/81bGKUa1e0L.jpg",
+      "createdAt": "2025-03-18T10:39:54.782Z",
+      "updatedAt": "2025-03-18T10:39:54.782Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d98b9c18e9bb9a5d4651ae",
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "genre": [
+        "Self-Help"
+      ],
+      "publicationYear": 1937,
+      "description": "A classic book on personal success, financial prosperity, and achieving goals.",
+      "coverImage": "https://m.media-amazon.com/images/I/71UypkUjStL.jpg",
+      "createdAt": "2025-03-18T15:05:00.301Z",
+      "updatedAt": "2025-03-18T15:05:14.819Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d98c7a18e9bb9a5d4651ba",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "genre": [
+        "Finance"
+      ],
+      "publicationYear": 1997,
+      "description": "A personal finance classic that contrasts two different approaches to money management and wealth-building.",
+      "coverImage": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg",
+      "createdAt": "2025-03-18T15:08:42.916Z",
+      "updatedAt": "2025-03-18T15:08:42.916Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d98cc418e9bb9a5d4651be",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": [
+        "Chess"
+      ],
+      "publicationYear": 2020,
+      "description": "A deep dive into how our psychology affects financial decisions and wealth accumulation.",
+      "coverImage": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg",
+      "createdAt": "2025-03-18T15:09:56.188Z",
+      "updatedAt": "2025-03-25T18:20:12.377Z",
+      "__v": 0
+    }
+  ],
+  "users": [
+    {
+      "fullname": "User",
+      "email": "user@gmail.com",
+      "password": "User@1234",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "fullname": "Shubhav",
+      "email": "admin@gmail.com",
+      "password": "Admin@1234",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "ram@gmail.com",
+      "password": "ram@123",
+      "fullname": "ram",
+      "id": 1746786617661
+    }
+  ]
+}

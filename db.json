@@ -111,6 +111,17 @@
       "createdAt": "2025-03-18T15:09:56.188Z",
       "updatedAt": "2025-03-25T18:20:12.377Z",
       "__v": 0
+    },
+    {
+      "_id": null,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "genre": [
+        "Self-Help"
+      ],
+      "publicationYear": "1997",
+      "description": "A guide to spiritual enlightenment through present moment awareness.",
+      "coverImage": "https://m.media-amazon.com/images/I/71sBtM3Yi5L.jpg"
     }
   ],
   "users": [

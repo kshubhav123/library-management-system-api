@@ -16,6 +16,9 @@ server.use(cors())
 server.use(jsonServer.bodyParser);
 const port = process.env.PORT || 8080;
 server.db = router.db;
+server.use(morgan("dev"));
+server.use(jsonServer.bodyParser);
+
 
 
 server.post("/register", (req, res) => {
@@ -76,6 +79,10 @@ server.post("/books", AuthMiddleware.authenticate, AuthMiddleware.authorize(["ad
         if (!coverImage) {
             coverImage = "https://i.imgur.com/NAZWTGP.png"
         }
+
+        const filePath = path.join(__dirname, "db.json");
+        const db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const books = db.books || [];
 
         const nextId = books.length > 0 ? Math.max(...books.map(b => b.id)) + 1 : 1;
 
@@ -145,8 +152,6 @@ server.get("/books/:_id", (req, res) => {
     }
 })
 
-server.use(morgan("dev"));
-server.use(jsonServer.bodyParser);
 server.use(auth);
 server.use(router);
 
